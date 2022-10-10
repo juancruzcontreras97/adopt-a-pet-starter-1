@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { getPetTypes } from '../../api/petfinder';
 import Logo from '../../assets/logo.svg';
 import Search from '../search';
+
 const Navigation = () => {
   const [petTypes, setPetTypes] = useState([]);
 

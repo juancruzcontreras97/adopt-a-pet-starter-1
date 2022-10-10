@@ -10,9 +10,12 @@ function App() {
   return (
     <Router>
       <Navigation />
-      <Switch >
+      <Switch>
         <Route path='/:type/:id'>
           <PetDetailsPage></PetDetailsPage>
+        </Route>
+        <Route path='/search'>
+          <SearchPage />
         </Route>
         <Route path='/:type?'>
           <HomePage />
